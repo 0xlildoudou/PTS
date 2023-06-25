@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEBHOOK=$(cat WEBHOOK.txt)
+WEBHOOK=$(cat ~/.pts/WEBHOOK.txt)
 
 function curl_webhook() {
     curl -s \
